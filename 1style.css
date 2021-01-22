@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Open Sans', sans-serif !important;
+    color: rgb(90, 89, 89);
+}
+.headercontainer{
+    background-color: #222222;
+    padding-top: 10rem;
+    height: 598px;
+}   
+.mainname{
+    padding-top: 4rem;
+    padding-bottom: 12.3rem;
+}
+.mainname h1{
+    font-size: 63px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.mainname p{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+.scrolldown{
+    height: 80px;
+    width: 110px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    background-color: white;
+    text-align: center;
+    z-index: 100;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.scrolldown i{
+    color: #222222;
+    font-size: 40px;
+    padding-right: 2px;
+    padding-top: 25px;
+}
+.mynavbar{
+    border: 0px;
+    background-color: #222222;
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    width: 110px;
+    display: block;
+    flex-direction: row;
+}
+.mynav-item{
+    border: 0;
+    padding: 1em;
+    display: block;
+    border-top: solid 1px;
+    border-top-color: rgb(90, 89, 89);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.mynav-item p{
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.background-white{
+    padding-right: 5.5rem;
+    padding-left: 5.5rem;
+}
+#profile h2{
+    color: #23689b;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-size: 4em;
+    font-weight: 100;
+}
+#profile h3{
+    color: #23689b;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    font-weight: 300;
+}
+.profile-centre{
+    padding-top: 2rem;
+}
+.linkbox{
+    float: left;
+    padding: 4px;
+    align-items: center;
+    color: #23689b;
+}
+#education h2{
+    color: #23689b;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-size: 4em;
+    font-weight: 100;
+}
+.gray{
+    background-color: #f4f5db;
+}
+#experiences h2{
+    color: #23689b;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-size: 4em;
+    font-weight: 100;
+}
+#skills h2{
+    color: #23689b;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-size: 4em;
+    font-weight: 100;
+    align-items: center;
+}
+#projects h2{
+    color: #23689b;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    font-size: 4em;
+    font-weight: 100;
+}
+#contact h2{
+    color: #97bad4;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-size: 4em;
+    font-weight: 100;
+}
+.background-gray{
+    background-color: #222222;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.formclass{
+    padding-right: 10rem;
+    padding-left: 3rem;
+}
+.skillstar{
+    padding-bottom: 3rem;
+    margin-left: 6rem;
+}
+
+ul{
+    list-style-type: none;
+}
+i{
+    text-align: right;
+}
+
+/* ul li{
+    text-align: right;
+} */
+.left-list{
+    float: left;
+}
+.right-list{
+    float: left;
+}
+
+/* .list-twoside{
+    
+} */
+.form-input-box{
+    display: block;
+    width: 90%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #838383;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 5%;
+}
+.form-message-box{
+    display: block;
+    width: 90%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 5.5;
+    color: #838383;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 5%;
+}
