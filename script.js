@@ -2,28 +2,32 @@ $(document).ready(function(){
     $("#submit-form").validate({
         rules:{
             fName:{
-                required:true
+                required:true,
             },
             lName:{
-                required:true
+                required:true,
             },
             emailid:{
                 required:true,
-                email:true
+                email:true,
             },
             mobnum:{
                 required:true,
-                number:true
+                number:true,
+                minilength:10,
+                maxlength:10,
             },
             whatnum:{
                 required:true,
-                number:true
+                number:true,
+                minilength:10,
+                maxlength:10,
             },
             message1:{
-                required:true
+                required:true,
             },
             message2:{
-                required:true
+                required:true,
             }
         },
         messages:{
